@@ -1,5 +1,10 @@
 # Spectra
 
+<p align="center">
+  <img src="docs/banner.png" alt="spectra banner" width="100%" />
+</p>
+
+
 [![Dart](https://img.shields.io/badge/Dart-3.0+-blue.svg)](https://dart.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![pub package](https://img.shields.io/pub/v/spectra_schema.svg)](https://pub.dev/packages/spectra_schema)
