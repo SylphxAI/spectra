@@ -1,9 +1,8 @@
 # Spectra
 
 <p align="center">
-  <img src="docs/banner.png" alt="spectra banner" width="100%" />
+  <img src="https://mark.sylphx.com/api/v1/banner?type=orbit&theme=tokyonight&text=spectra&desc=Transform+Dart+data+classes+into+JSON+Schema%2C+OpenAPI%2C+and+Protocol+Buffers.+Wor&height=200&animation=rise&credit=0" alt="spectra — Sylphx Mark banner" width="100%" />
 </p>
-
 
 [![Dart](https://img.shields.io/badge/Dart-3.0+-blue.svg)](https://dart.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
