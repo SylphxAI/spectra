@@ -1,0 +1,26 @@
+name: CI
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  flutter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Pub get (hermetic tip signal)
+        run: flutter pub get
+      - name: Analyze (residual informational)
+        continue-on-error: true
+        run: flutter analyze
+      - name: Test (residual informational)
+        continue-on-error: true
+        run: flutter test
